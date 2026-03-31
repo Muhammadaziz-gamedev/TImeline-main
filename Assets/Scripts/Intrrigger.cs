@@ -22,7 +22,6 @@ public class Intrrigger : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            Debug.Log("nigga");
             Maintimeline.Play();
         }
     }

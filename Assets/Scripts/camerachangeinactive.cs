@@ -9,6 +9,8 @@ public class camerachangeinactive : MonoBehaviour
     private float timer = 0f;
     [SerializeField] GameObject _blendListCamera;
     [SerializeField] GameObject _cockpitCamera;
+    [SerializeField] GameObject _personCamera;
+    [SerializeField] GameObject _shipCamController;
     private Vector3 lastMousePosition ;
     void Start()
     {
@@ -19,7 +21,7 @@ public class camerachangeinactive : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        CameraSwap _camControl = _shipCamController.GetComponent<CameraSwap>();
         if (Input.anyKey || Input.mousePosition != lastMousePosition)
         {
             timer = 0f;
@@ -35,6 +37,7 @@ public class camerachangeinactive : MonoBehaviour
         {
             _blendListCamera.SetActive(true);
             _cockpitCamera.SetActive(false);
+            _camControl.EnableShipRenderer();
         }
     }
 }
