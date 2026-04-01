@@ -328,7 +328,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106134771}
-  m_LocalRotation: {x: 0.14508912, y: 0.84346503, z: -0.2824323, w: 0.43329895}
+  m_LocalRotation: {x: 0.14508846, y: 0.843466, z: -0.28243247, w: 0.43329713}
   m_LocalPosition: {x: 106.50002, y: 23.41, z: 27.392914}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -7769,7 +7769,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 747761543}
-  m_LocalRotation: {x: 0.21275483, y: 0.17149977, z: -0.037960738, w: 0.96118796}
+  m_LocalRotation: {x: 0.21275483, y: 0.1714999, z: -0.037960764, w: 0.9611879}
   m_LocalPosition: {x: -13.386013, y: 13.748868, z: 80.50987}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8317,6 +8317,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   final: {fileID: 399477942}
+--- !u!114 &941286469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941286462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 151a448cee3852f45ad3f54799cabd58, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1403413354}
+          m_TargetAssemblyTypeName: CameraSwap, Assembly-CSharp
+          m_MethodName: EnableShipRenderer
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &947956707
 GameObject:
   m_ObjectHideFlags: 0
@@ -8487,7 +8517,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.13168879, y: 0.8427155, z: -0.239181, w: 0.46398407}
+  m_LocalRotation: {x: 0.13168882, y: 0.8427154, z: -0.239181, w: 0.46398416}
   m_LocalPosition: {x: -9.116351, y: 12.439096, z: 3.131638}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11573,7 +11603,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882649372}
-  m_LocalRotation: {x: 0.13168879, y: 0.84271544, z: -0.239181, w: 0.46398404}
+  m_LocalRotation: {x: 0.1316888, y: 0.8427154, z: -0.23918097, w: 0.46398416}
   m_LocalPosition: {x: -17.13, y: 11.86, z: 7.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
